@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/jssate",
+        "create path (nt:unstructured) /content/dam/jssate/jcr:content",
+        "set properties on /content/dam/jssate/jcr:content\n  set cq:conf{String} to /conf/jssate\n  set jcr:title{String} to \"jss Site\"\nend"
+    ]
+}

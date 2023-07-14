@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/jssate" mode="merge"/>
+    <filter root="/content/jssate" mode="merge"/>
+    <filter root="/content/dam/jssate" mode="merge">
+        <exclude pattern="/content/dam/jssate(/.*)?"/>
+        <include pattern="/content/dam/jssate/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/jssate/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/jssate" mode="merge"/>
+</workspaceFilter>
